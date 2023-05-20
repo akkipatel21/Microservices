@@ -1,0 +1,44 @@
+https://autoworx-qa.uit.yorku.ca/work/platform-api/process-instances/PRC-eae522dc-e4fc-11ed-9469-0242ac130005?includeTranslations=true
+
+{
+	"id": "PRC-eae522dc-e4fc-11ed-9469-0242ac130005",
+	"suspended": false,
+	"ended": false,
+	"processDefinitionId": "PRC-fSFS_101_Process_MIPA:1:0e0eab04-2eaf-11ed-a0a5-0242ac130005",
+	"completed": false,
+	"tenantId": "",
+	"startTime": "2023-04-27T13:10:44.213+00:00",
+	"startUserId": "gary1919",
+	"processDefinitionName": "FSFS_101_Process_MIPA",
+	"processDefinitionKey": "fSFS_101_Process_MIPA",
+	"processDefinitionCategory": "http://flowable.org/test",
+	"processDefinitionVersion": 1,
+	"processDefinitionDeploymentId": "PRC-0df5a4c2-2eaf-11ed-a0a5-0242ac130005",
+	"graphicalNotationDefined": false,
+	"startFormDefined": false,
+	"permissions": [
+		"process.change-status",
+		"process.document.create",
+		"process.audittrail.view",
+		"process.comment.create",
+		"process.identitylink.create",
+		"process.change-assignee",
+		"process.history.view",
+		"process.identitylink.edit",
+		"process.sub-items.view",
+		"process.identitylink.view",
+		"process.document.edit",
+		"process.edit",
+		"process.comment.delete",
+		"process.comment.edit",
+		"process.identitylink.delete",
+		"process.comment.view",
+		"process.document.view",
+		"process.view",
+		"process.document.delete",
+		"process.delete"
+	],
+	"translations": {}
+}
+
+
