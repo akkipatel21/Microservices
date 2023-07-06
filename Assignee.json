@@ -14,7 +14,7 @@
 	"processDefinitionDeploymentId": "PRC-0df5a4c2-2eaf-11ed-a0a5-0242ac130005",
 	"graphicalNotationDefined": false,
 	"startFormDefined": false,
-	"permissions": [
+	"permissions": [ 
 		"process.change-status",
 		"process.document.create",
 		"process.audittrail.view",
