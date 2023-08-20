@@ -1,42 +1,59 @@
 {
-	"id": "PRC-eae522dc-e4fc-11ed-9469-0242ac130005",
-	"suspended": false,
-	"ended": false,
-	"processDefinitionId": "PRC-fSFS_101_Process_MIPA:1:0e0eab04-2eaf-11ed-a0a5-0242ac130005",
-	"completed": false,
-	"tenantId": "",
-	"startTime": "2023-04-27T13:10:44.213+00:00",
-	"startUserId": "gary1919",
-	"processDefinitionName": "FSFS_101_Process_MIPA",
-	"processDefinitionKey": "fSFS_101_Process_MIPA",
-	"processDefinitionCategory": "http://flowable.org/test",
-	"processDefinitionVersion": 1,
-	"processDefinitionDeploymentId": "PRC-0df5a4c2-2eaf-11ed-a0a5-0242ac130005",
-	"graphicalNotationDefined": false,
-	"startFormDefined": false,
-	"permissions": [ 
-		"process.change-status",
-		"process.document.create",
-		"process.audittrail.view",
-		"process.comment.create",
-		"process.identitylink.create",
-		"process.change-assignee",
-		"process.history.view",
-		"process.identitylink.edit",
-		"process.sub-items.view",
-		"process.identitylink.view",
-		"process.document.edit",
-		"process.edit",
-		"process.comment.delete",
-		"process.comment.edit",
-		"process.identitylink.delete",
-		"process.comment.view",
-		"process.document.view",
-		"process.view",
-		"process.document.delete",
-		"process.delete"
-	],
-	"translations": {}
+
+    "job": {
+      "code": 514,
+      "title": "DEV"
+    },
+    "jECaseID": 89,
+    "responderNominate": "Akash Patel",
+    "caseType": "SigChange",
+    "submissionDueBy": "2023-10-10",
+    "department_Faculty": "UIT",
+    "DesignateDM": "Haris",
+    "dmTitle": "People Partner",
+    "jeConsultant": "JEC",
+    "prCmtForJobChange": "pr Comment for job change",
+    "srCmtForJobChange": "sr Comment for job change",
+    "jecCmtForJobChange": "jec Comment for job change",
+    "retroDate": "2023-11-17",
+    "addtionalDuties": [
+      {
+        "percentage": 10,
+        "duty": "duty1",
+        "description": "desc1"
+      },
+	  {
+        "percentage": 20,
+        "duty": "duty2",
+        "description": "desc2"
+      }
+    ],
+    "srCmtForAdditionalDuties": "sr Cmt For Additional Duties",
+    "jecCmtForAdditionalDuties": "jec Cmt For Additional Duties",
+    "eliminatedDuties": [
+      {
+        "percentage": 30,
+        "duty": "duty3",
+        "description": "desc3"
+      },
+	  {
+        "percentage": 40,
+        "duty": "duty4",
+        "description": "desc4"
+      }
+    ],
+    "srCmtForEliminatedDuties": "sr Cmt For Eliminated Duties",
+    "jecCmtForEliminatedDuties": "jec Cmt For Eliminated Duties",
+    "prCmtForAdditionalDetails": "pr Cmt For Additional Details",
+    "srCmtForAdditionalDetails": "sr Cmt For Additional Details",
+    "jecCmtForAdditionalDetails": "jec Cmt For Additional Details",
+    "prCmtForRevision": "pr Cmt For Revision",
+    "srCmtForRevision": "sr Cmt For Revision",
+    "jecCmtForRevision": "jec Cmt For Revision",
+    "confirmation": {
+      "jecConfirmation": "Agree",
+      "respoCmtOnConfirmation": "respo Cmt On Confirmation",
+      "jecCmtOnConfirmation": "jec Cmt On Confirmation"
+    }
+  
 }
-
-
