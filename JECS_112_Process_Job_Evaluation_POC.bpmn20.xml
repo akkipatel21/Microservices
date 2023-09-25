@@ -59,7 +59,7 @@ String processInstanceId = execution.getProcessInstanceId()
 List<Task> tasks = taskService.createTaskQuery()
         .processInstanceId(processInstanceId)
         .list()
-ww
+w
 if (tasks) {
     tasks.each { Task task ->
         String taskId = task.getId()
